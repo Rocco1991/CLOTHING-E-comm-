@@ -1,5 +1,5 @@
 const createNav = () => {
-    let nav = document.querySelector('.navbar');
+    let nav = document.querySelector('.navbar'); /* .navbar  E1 16:12 */
     nav.innerHTML = `
     
     <div class="nav">

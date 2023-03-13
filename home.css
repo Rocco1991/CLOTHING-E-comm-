@@ -5,10 +5,11 @@
           34px 36px */
 
 @import 'nav.css';
+@import 'footer.css';
 .hero-section {
     width: 100%;
     height: calc(100vh - 120px);
-    background-image: url('../imgs/header.png');
+    background-image: url('../imgs/background2.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -42,7 +43,7 @@
 .product-category {
     padding: 0 10vw;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 40px;
     text-transform: uppercase;
     text-align: center;
@@ -145,7 +146,7 @@
 
 .price {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: normal;
     margin-top: 10px;
     color: rgb(41, 169, 41);
 }
